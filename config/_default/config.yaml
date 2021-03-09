@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+title: repozitor # Website name
+baseurl: 'https://repozitor.com/' # Website URL
+copyright: 'Javad Zandi - Official Site' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -41,6 +41,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
+  posts: /:year/:month/:title/
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -74,3 +75,65 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
+############################
+## Customization
+############################
+
+# publishDir: repozitor.github.io
+# enableInlineShortcodes: true
+# googleAnalytics: ''
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+# theme: beautifulhugo
+#disqusShortname: yourdiscussshortname
+
+#minify:
+#  disableCSS: false
+#  disableHTML: false
+#  disableJS: false
+#  disableJSON: false
+#  disableSVG: false
+#  disableXML: false
+#  minifyOutput: false
+#  tdewolff:
+#    css:
+#      keepCSS2: true
+#      precision: 0
+#    html:
+#      keepComments: false
+#      keepConditionalComments: true
+#      keepDefaultAttrVals: true
+#      keepDocumentTags: true
+#      keepEndTags: true
+#      keepQuotes: false
+#      keepWhitespace: false
+#    js:
+#      keepVarNames: false
+#      precision: 0
+#    json:
+#      precision: 0
+#    svg:
+#      precision: 0
+#    xml:
+#      keepWhitespace: false
+
+#markup:
+#  highlight:
+#    anchorLineNos: false
+#    codeFences: true
+#    guessSyntax: false
+#    hl_Lines: ""
+#    lineAnchors: ""
+#    lineNoStart: 1
+#    lineNos: false
+#    lineNumbersInTable: true
+#    noClasses: true
+#    style: monokai
+#    tabWidth: 4
+#  tableOfContents:
+#    endLevel: 3
+#    ordered: false
+#    startLevel: 2
