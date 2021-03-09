@@ -2,14 +2,14 @@ name: github pages
 
 on:
   push:
-    branches:
-      - main  # Set a branch to deploy
+    branches: [ master ] # Set a branch to deploy
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -20,13 +20,18 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
+      - name: Clean public directory
+        run: rm -rf public
+
       - name: Build
         run: hugo --minify
+
+      #- name: Create cname file
+      #  run: echo 'repozitor.com' > public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.810e6406f944d1bfdd0ee7dde013b23b06ca68cc }}
           publish_dir: ./public
-          allow_empty_commit: true
-          #cname: repozitor.com
+          #allow_empty_commit: true
