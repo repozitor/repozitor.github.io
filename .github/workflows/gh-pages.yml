@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.4.13
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           # extended: true
@@ -26,5 +26,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ 819b72482c53ea6ce2fa5e9e70e98258f37d9af7 }}
+          github_token: ${{ secrets.810e6406f944d1bfdd0ee7dde013b23b06ca68cc }}
           publish_dir: ./public
+          allow_empty_commit: true
+          #cname: repozitor.com
