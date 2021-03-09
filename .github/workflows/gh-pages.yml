@@ -34,4 +34,5 @@ jobs:
         with:
           github_token: ${{ secrets.810e6406f944d1bfdd0ee7dde013b23b06ca68cc }}
           publish_dir: ./public
+          publish_branch: master
           #allow_empty_commit: true
