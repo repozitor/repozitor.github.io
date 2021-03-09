@@ -2,7 +2,8 @@ name: github pages
 
 on:
   push:
-    branches: [ master ] # Set a branch to deploy
+    branches: 
+      - master # Set a branch to deploy
 
 jobs:
   deploy:
@@ -20,8 +21,8 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-#      - name: Clean public directory
-#        run: rm -rf public
+      - name: Clean public directory
+        run: rm -rf public
 
       - name: Build
         run: hugo --minify
