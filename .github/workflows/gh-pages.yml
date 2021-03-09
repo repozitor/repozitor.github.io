@@ -33,5 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          cname: repozitor.com
+          CNAME: repozitor.com
           #allow_empty_commit: true
