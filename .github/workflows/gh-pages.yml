@@ -27,9 +27,6 @@ jobs:
       - name: Build
         run: hugo --minify
 
-#      - name: Create CNAME
-#        run: echo 'repozitor.com' > public/CNAME
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -37,4 +34,3 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           CNAME: repozitor.com
-          #allow_empty_commit: true
