@@ -27,8 +27,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Create CNAME
-        run: echo 'repozitor.com' > public/CNAME && cat public/CNAME
+#      - name: Create CNAME
+#        run: echo 'repozitor.com' > public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
