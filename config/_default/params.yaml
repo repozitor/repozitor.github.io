@@ -7,59 +7,59 @@
 
 theme: minimal
 day_night: true
-font: ''
-font_size: L
+font: ''        # Options: Minimal, Classic, Mr Robot, Rose
+font_size: L    # Options: XS, M, L, XL
 
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+local_business_type: 'Computer Science'
+org_name: 'repozitor'
+description: 'Javad Zandi personal website'
+twitter: 'https://twitter.com/repozitor'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: ''
+phone: ''
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: ''
+  city: Tehran
+  region: ''
+  postcode: ''
+  country: Iran
+  country_code: IR
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: ''
+  longitude: ''
+directions: ''
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+#  - 'Monday 10:00 to 13:00'
+#  - 'Wednesday 09:00 to 10:00'
+appointment_url: ''
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
+    name: repozitor
+    link: 'https://twitter.com/repozitor'
   - icon: skype
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: repozitor
+    link: 'skype:repozitor'
+#  - icon: keybase
+#    icon_pack: fab
+#    name: Chat on Keybase
+#    link: 'https://keybase.io/'
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on Forum
+#    link: 'https://discourse.gohugo.io'
 
 # Site header
 
 main_menu:
   enable: true
-  align: l
+  align: c
   show_logo: true
   show_language: false
   show_day_night: true
@@ -112,7 +112,7 @@ avatar:
   shape: circle
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: APA
 projects:
   post_view: 2
   publication_view: 2
@@ -145,11 +145,12 @@ map:
   api_key: ''
   zoom: 15
 marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
+  google_analytics: 'UA-26941183-1'
+  google_tag_manager: 'GTM-5HZ2KFL'
+  google_site_verification: '_89gHaAyB2lXa50k9yEIUx9HwWsqldXBkWlNlu4bY7Y'
   baidu_site_verification: ''
   baidu_tongji: ''
+  microsoft_clarity: '5ui555dfhg'
 cms:
   branch: master
   local_backend: false

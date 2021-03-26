@@ -10,6 +10,22 @@
   enable = true
 
 [[buttons]]
+  id = "whatsapp"
+  url = "whatsapp://send?text={title}%20{url}"
+  title = "WhatsApp"
+  icon_pack = "fab"
+  icon = "whatsapp"
+  enable = true
+
+[[buttons]]
+  id = "telegram"
+  url = "https://t.me/share/url?url={url}&text={title}"
+  title = "Telegram"
+  icon_pack = "fab"
+  icon = "telegram"
+  enable = true
+
+[[buttons]]
   id = "facebook"
   url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
   title = "Facebook"
@@ -34,14 +50,6 @@
   enable = true
 
 [[buttons]]
-  id = "whatsapp"
-  url = "whatsapp://send?text={title}%20{url}"
-  title = "WhatsApp"
-  icon_pack = "fab"
-  icon = "whatsapp"
-  enable = true
-
-[[buttons]]
   id = "weibo"
   url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
   title = "Weibo"
@@ -55,7 +63,7 @@
   title = "Reddit"
   icon_pack = "fab"
   icon = "reddit-alien"
-  enable = false
+  enable = true
 
 [[buttons]]
   id = "pinterest"
@@ -63,7 +71,7 @@
   title = "Pinterest"
   icon_pack = "fab"
   icon = "pinterest"
-  enable = false
+  enable = true
 
 [[buttons]]
   id = "xing"

@@ -3,6 +3,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: contact
 
+# Hide/show widget
+active: false
+
 # This file represents a page section.
 headless: true
 
@@ -16,14 +19,11 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
   
-  # Email form provider
+content:
   form:
-    provider: netlify
+    provider: formspree
     formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      id: xvovelnk
   
 design:
   columns: '2'

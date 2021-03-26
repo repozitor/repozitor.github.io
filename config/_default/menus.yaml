@@ -7,24 +7,66 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+########################################
   - name: Posts
-    url: '#posts'
+    url: 'post'
     weight: 20
-  - name: Projects
-    url: '#projects'
+    identifier: 'postsubmenu'
+  - name: News and Events
+    url: 'post/news'
+    weight: 10
+    parent: 'postsubmenu'
+  - name: Security
+    url: 'post/security'
+    weight: 20
+    parent: 'postsubmenu'
+  - name: Development
+    url: 'post/development'
     weight: 30
-  - name: Talks
-    url: '#talks'
+    parent: 'postsubmenu'
+  - name: Network
+    url: 'post/network'
     weight: 40
-  - name: Publications
-    url: '#featured'
+    parent: 'postsubmenu'
+  - name: Server
+    url: 'post/server'
     weight: 50
-  - name: Contact
-    url: '#contact'
+    parent: 'postsubmenu'
+  - name: Poem
+    url: 'post/poem'
     weight: 60
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+    parent: 'postsubmenu'
+########################################
+  - name: Academic
+    url: 'academic'
+    weight: 30
+    identifier: 'academicsubmenu'
+  - name: Research
+    url: 'academic/research'
+    weight: 10
+    parent: 'academicsubmenu'
+  - name: Teaching
+    url: 'academic/teaching'
+    weight: 30
+    parent: 'academicsubmenu'
+  - name: Patent
+    url: 'academic/patent'
+    weight: 30
+    parent: 'academicsubmenu'
+########################################
+  - name: Projects
+    url: 'project'
+    weight: 40
+########################################
+  - name: Publication
+    url: 'publication'
+    weight: 50
+    identifier: 'publicationsubmenu'
+########################################
+  - name: Resumé/CV
+    url: 'uploads/repozitorCV.pdf'
+    weight: 60
+########################################
+  - name: Contact
+    url: 'contact'
+    weight: 70

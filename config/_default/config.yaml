@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: repozitor # Website name
+title: 'repozitor' # Website name
 baseurl: 'https://repozitor.com/' # Website URL
 copyright: 'Javad Zandi - Official Site' # Footer text, e.g. '© {year} Me'
 
@@ -80,15 +80,15 @@ related:
 ## Customization
 ############################
 
-# publishDir: repozitor.github.io
 # enableInlineShortcodes: true
 # googleAnalytics: ''
 sitemap:
-  changefreq: weekly
+  changefreq: daily
   filename: sitemap.xml
   priority: 0.5
 # theme: beautifulhugo
 #disqusShortname: yourdiscussshortname
+
 
 #minify:
 #  disableCSS: false
