@@ -20,7 +20,6 @@ bio: My research interests include a broad range of computer science and informa
 interests:
 - Program Analysis
 - Fuzzing
-- Machine Learning in Security
 - Mobile Security
 
 
