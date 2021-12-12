@@ -67,9 +67,13 @@ main:
     url: 'uploads/repozitorCV.pdf'
     weight: 60
     identifier: 'allresume'
-  - name: Maryam Hatami CV
-    url: 'uploads/hatami.pdf'
+  - name: Javad Zandi
+    url: 'uploads/repozitorCV.pdf'
     weight: 10
+    parent: 'allresume'
+  - name: Maryam Hatami
+    url: 'uploads/hatami.pdf'
+    weight: 20
     parent: 'allresume'
 ########################################
   - name: Contact
