@@ -66,6 +66,11 @@ main:
   - name: Resumé/CV
     url: 'uploads/repozitorCV.pdf'
     weight: 60
+    identifier: 'allresume'
+  - name: Maryam Hatami CV
+    url: 'uploads/hatami.pdf'
+    weight: 10
+    parent: 'allresume'
 ########################################
   - name: Contact
     url: 'contact'
