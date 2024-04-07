@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: false
 ---
 
 {% include lang.html %}
@@ -16,5 +17,9 @@ layout: default
     </div>
   {% else %}
     {{ content }}
+  {% endif %}
+
+  {% if page.comments %}
+    {% include comments/disqus.html %}
   {% endif %}
 </article>
