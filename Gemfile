@@ -26,4 +26,5 @@ group :jekyll_plugins do
   gem 'jekyll-google-tag-manager'
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
+  gem 'jekyll-target-blank'
 end
