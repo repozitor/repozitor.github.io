@@ -19,7 +19,7 @@
 
 # - type: rss
 #   icon: "fas fa-rss"
-#   url: 'https://feeds.feedburner.com/TheHackersNews'
+#   url: 'https://repozitor.com/feed.xml'
 #   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
