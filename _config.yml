@@ -55,13 +55,12 @@ google_site_verification: _89gHaAyB2lXa50k9yEIUx9HwWsqldXBkWlNlu4bY7Y # fill in 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-# google:
-#   tag_manager:
-#     container_id: GTM-5HZ2KFL
+google:
+  tag_manager:
+    container_id: GTM-5HZ2KFL
 
-google_analytics:
-  # id: G-WSSNVSS97Y # fill in your Google Analytics ID
-  id: GTM-5HZ2KFL # fill in your Google Analytics ID
+# google_analytics:
+#   id: G-WSSNVSS97Y # fill in your Google Analytics ID
 
 goatcounter:
   id: repozitor # fill in your Goatcounter ID
