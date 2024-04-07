@@ -1,0 +1,12 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Upgrade theme",
+      "type": "shell",
+      "command": "export PATH=~/.gem/ruby/3.3.0/bin:~/.rubies/ruby-3.3.0/lib/ruby/gems/3.3.0/bin:~/.rubies/ruby-3.3.0/bin:$PATH && bundle"
+    },
+  ]
+}
