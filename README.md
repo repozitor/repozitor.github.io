@@ -1,4 +1,5 @@
 For Full detail Manual see: [Jekyll Docs](https://jekyllrb.com/docs/)
+For other includes use: [Without plugins](https://jekyllcodex.org/without-plugin/)
 
 # Chirpy Starter
 

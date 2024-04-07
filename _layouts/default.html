@@ -87,5 +87,9 @@ layout: compress
     {% include better-forms.html %}
     {% include buttons.html %}
     {% include buttonmodal.html %}
+    {% if page.forms[0] %}{% include form.html form="1" %}{% endif %}
+    {% include image-gallery.html folder="/uploads/album" %}
+    {% include open-embed.html %}
+    {% include carousel.html height="50" unit="%" duration="7" number="1" %}
   </body>
 </html>
