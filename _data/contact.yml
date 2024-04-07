@@ -3,6 +3,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: linkedin
+  icon: fa-solid fa-address-card
+  url: https://repozitor.com/cv.pdf
+
 - type: google-scholar
   icon: 'fab fa-google-scholar'   # icons powered by <https://fontawesome.com/>
   url:  'https://scholar.google.com/citations?hl=en&user=E6L46UYAAAAJ'
