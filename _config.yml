@@ -19,17 +19,20 @@ title: Javad Zandi # the main title
 tagline: An Enthusiastic CyberSecurity Researcher # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Javad Zandi (repozitor) personal website. I write about state-of-the-art attack and defense solutions. Sometimes I talk about advanced topics in computer science.
+  Javad Zandi (aka repozitor) personal website. I write about state-of-the-art attack and defense solutions. Sometimes I talk about advanced topics in computer science.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://repozitor.com"
+
+author: repozitor
 
 github:
   username: repozitor # change to your github username
 
 twitter:
   username: repozitor # change to your twitter username
+  card: summary
 
 social:
   # Change to your full name.
