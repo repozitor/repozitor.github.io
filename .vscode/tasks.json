@@ -8,5 +8,10 @@
       "type": "shell",
       "command": "export PATH=~/.gem/ruby/3.3.0/bin:~/.rubies/ruby-3.3.0/lib/ruby/gems/3.3.0/bin:~/.rubies/ruby-3.3.0/bin:$PATH && bundle"
     },
+    {
+      "label": "Build local server",
+      "type": "shell",
+      "command": "export PATH=~/.gem/ruby/3.3.0/bin:~/.rubies/ruby-3.3.0/lib/ruby/gems/3.3.0/bin:~/.rubies/ruby-3.3.0/bin:$PATH && open http://127.0.0.1:4000 && bundle exec jekyll serve"
+    }
   ]
 }
