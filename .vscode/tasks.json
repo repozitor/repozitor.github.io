@@ -11,7 +11,7 @@
     {
       "label": "Building and running local server",
       "type": "shell",
-      "command": "export PATH=~/.gem/ruby/3.3.0/bin:~/.rubies/ruby-3.3.0/lib/ruby/gems/3.3.0/bin:~/.rubies/ruby-3.3.0/bin:$PATH && bundle exec jekyll serve"
+      "command": "export PATH=~/.gem/ruby/3.3.0/bin:~/.rubies/ruby-3.3.0/lib/ruby/gems/3.3.0/bin:~/.rubies/ruby-3.3.0/bin:$PATH && bundle install && bundle exec jekyll serve"
     }
   ]
 }

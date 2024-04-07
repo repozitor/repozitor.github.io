@@ -17,10 +17,10 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-# - type: rss
-#   icon: "fas fa-rss"
-#   url: 'https://repozitor.com/feed.xml'
-#   noblank: true
+- type: rss
+  icon: "fas fa-rss"
+  url: 'https://repozitor.com/feed.xml'
+  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
