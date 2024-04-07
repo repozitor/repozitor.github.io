@@ -4,7 +4,7 @@ title: "پادشاه و کنیزک-دفتر اول مثنوی-مولوی"
 author: repozitor
 
 tags: ["poem","شعر","مثنوی"]
-categories: [poem,fun]
+categories: [fun]
 
 date: 2021-03-26
 comments: true

@@ -4,7 +4,7 @@ title: "Life’s entertainment"
 author: repozitor
 
 tags: ["poem", "شعر"]
-categories: [poem,fun]
+categories: [fun]
 
 date: 2021-03-26
 comments: true

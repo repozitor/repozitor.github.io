@@ -4,11 +4,7 @@ title: "پشتیبان(بکاپ) گیری از سرور، راه حل مطمئن
 author: repozitor
 
 tags: [sysadmin,system administrator,backup,free,network,security,server,automation]
-categories:
-    - server
-    - network
-    - security
-    - backup
+categories: [system administrator]
 
 date: 2017-07-07
 comments: true
