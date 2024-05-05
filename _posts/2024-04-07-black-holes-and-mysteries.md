@@ -3,7 +3,7 @@ title: "Black but super bright holes in the sky!"
 
 author: repozitor
 
-tags: [space, skye, astronomy, blackhole]
+tags: [space, sky, astronomy, black-hole]
 categories: [fun]
 
 date: 2024-04-07
