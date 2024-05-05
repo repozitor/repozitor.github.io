@@ -1,9 +1,9 @@
 ---
-title: "Reverse engineering state-of-the-art spam filtering tactics in real world example"
+title: "Reverse engineering state-of-the-art spam filtering tactics in a real world example"
 
 author: repozitor
 
-tags: [network, span, innovation, email]
+tags: [network, spam, reverse engineering, system administrators, email]
 categories: [network]
 
 date: 2024-05-03
@@ -45,4 +45,5 @@ I think a ``design flaw`` now is being **bolded** in mail servers. Let's combine
    2. Email titles may be subject to change! By appending new "Re: " or "Fwd: " or ... This will put title comparison in disadvantage position.
    3. Having no indexed data structure for checking.
 
+# Conclusion
 In summary, attackers are able to append **"Re: "** and/or **"Fwd: "** to their email's title to bypass spam fighters and deliver the dangerous/harmful content to their victims. Due to the structure of mail storage, we have no effective way for detecting false or true established stateful communication. Using **"Re: "** is an easy option for mail servers while they open attack surface to users. **Avoiding interrupting the email communication is very important. However, we need a robust approach to detect good/bad stateful communication rather than relying on email title**. Before scientists come up with a nice solution, the easiest way for system administrators but not best, is to prioritize filtering higher than whitelisting while we may receive complaints from users! :(
